@@ -13,6 +13,10 @@
 		816249912A40D0830096CB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8162498F2A40D0830096CB16 /* Main.storyboard */; };
 		816249932A40D0840096CB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816249922A40D0840096CB16 /* Assets.xcassets */; };
 		816249962A40D0840096CB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816249942A40D0840096CB16 /* LaunchScreen.storyboard */; };
+		CE0F75F52A40D9F800E68DDA /* MusicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F75F42A40D9F800E68DDA /* MusicService.swift */; };
+		CE0F75F72A40DA3600E68DDA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75F62A40DA3600E68DDA /* data.json */; };
+		CE0F75F92A40DA6A00E68DDA /* data-with-images.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75F82A40DA6A00E68DDA /* data-with-images.json */; };
+		CE0F75FB2A40DA9300E68DDA /* data-images.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75FA2A40DA9300E68DDA /* data-images.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		816249922A40D0840096CB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		816249952A40D0840096CB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		816249972A40D0840096CB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0F75F42A40D9F800E68DDA /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
+		CE0F75F62A40DA3600E68DDA /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		CE0F75F82A40DA6A00E68DDA /* data-with-images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data-with-images.json"; sourceTree = "<group>"; };
+		CE0F75FA2A40DA9300E68DDA /* data-images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data-images.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				816249922A40D0840096CB16 /* Assets.xcassets */,
 				816249942A40D0840096CB16 /* LaunchScreen.storyboard */,
 				816249972A40D0840096CB16 /* Info.plist */,
+				CE0F75F42A40D9F800E68DDA /* MusicService.swift */,
+				CE0F75F62A40DA3600E68DDA /* data.json */,
+				CE0F75F82A40DA6A00E68DDA /* data-with-images.json */,
+				CE0F75FA2A40DA9300E68DDA /* data-images.json */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -126,8 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				816249962A40D0840096CB16 /* LaunchScreen.storyboard in Resources */,
+				CE0F75FB2A40DA9300E68DDA /* data-images.json in Resources */,
 				816249932A40D0840096CB16 /* Assets.xcassets in Resources */,
 				816249912A40D0830096CB16 /* Main.storyboard in Resources */,
+				CE0F75F92A40DA6A00E68DDA /* data-with-images.json in Resources */,
+				CE0F75F72A40DA3600E68DDA /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				8162498E2A40D0830096CB16 /* ViewController.swift in Sources */,
 				8162498A2A40D0830096CB16 /* AppDelegate.swift in Sources */,
 				8162498C2A40D0830096CB16 /* SceneDelegate.swift in Sources */,
+				CE0F75F52A40D9F800E68DDA /* MusicService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
