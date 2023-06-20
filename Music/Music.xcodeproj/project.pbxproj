@@ -17,6 +17,10 @@
 		CE0F75F72A40DA3600E68DDA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75F62A40DA3600E68DDA /* data.json */; };
 		CE0F75F92A40DA6A00E68DDA /* data-with-images.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75F82A40DA6A00E68DDA /* data-with-images.json */; };
 		CE0F75FB2A40DA9300E68DDA /* data-images.json in Resources */ = {isa = PBXBuildFile; fileRef = CE0F75FA2A40DA9300E68DDA /* data-images.json */; };
+		CE1DDE2B2A420D2E002AEF9A /* TableViewControllerLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1DDE2A2A420D2E002AEF9A /* TableViewControllerLibrary.swift */; };
+		CE5BE70B2A4215F50041F16E /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE70A2A4215F50041F16E /* LibraryTableViewCell.swift */; };
+		CE5BE70D2A422D1C0041F16E /* TableViewControllerSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE70C2A422D1C0041F16E /* TableViewControllerSearch.swift */; };
+		CE5BE70F2A422EF50041F16E /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE70E2A422EF50041F16E /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		CE0F75F62A40DA3600E68DDA /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		CE0F75F82A40DA6A00E68DDA /* data-with-images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data-with-images.json"; sourceTree = "<group>"; };
 		CE0F75FA2A40DA9300E68DDA /* data-images.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "data-images.json"; sourceTree = "<group>"; };
+		CE1DDE2A2A420D2E002AEF9A /* TableViewControllerLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerLibrary.swift; sourceTree = "<group>"; };
+		CE5BE70A2A4215F50041F16E /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
+		CE5BE70C2A422D1C0041F16E /* TableViewControllerSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerSearch.swift; sourceTree = "<group>"; };
+		CE5BE70E2A422EF50041F16E /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +72,18 @@
 		816249882A40D0830096CB16 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				CE5BE70C2A422D1C0041F16E /* TableViewControllerSearch.swift */,
 				816249892A40D0830096CB16 /* AppDelegate.swift */,
 				8162498B2A40D0830096CB16 /* SceneDelegate.swift */,
 				8162498D2A40D0830096CB16 /* ViewController.swift */,
-				8162498F2A40D0830096CB16 /* Main.storyboard */,
-				816249922A40D0840096CB16 /* Assets.xcassets */,
-				816249942A40D0840096CB16 /* LaunchScreen.storyboard */,
-				816249972A40D0840096CB16 /* Info.plist */,
+				CE5BE70E2A422EF50041F16E /* SearchTableViewCell.swift */,
+				CE1DDE2A2A420D2E002AEF9A /* TableViewControllerLibrary.swift */,
+				CE5BE70A2A4215F50041F16E /* LibraryTableViewCell.swift */,
 				CE0F75F42A40D9F800E68DDA /* MusicService.swift */,
+				8162498F2A40D0830096CB16 /* Main.storyboard */,
+				816249942A40D0840096CB16 /* LaunchScreen.storyboard */,
+				816249922A40D0840096CB16 /* Assets.xcassets */,
+				816249972A40D0840096CB16 /* Info.plist */,
 				CE0F75F62A40DA3600E68DDA /* data.json */,
 				CE0F75F82A40DA6A00E68DDA /* data-with-images.json */,
 				CE0F75FA2A40DA9300E68DDA /* data-images.json */,
@@ -156,7 +168,11 @@
 				8162498E2A40D0830096CB16 /* ViewController.swift in Sources */,
 				8162498A2A40D0830096CB16 /* AppDelegate.swift in Sources */,
 				8162498C2A40D0830096CB16 /* SceneDelegate.swift in Sources */,
+				CE1DDE2B2A420D2E002AEF9A /* TableViewControllerLibrary.swift in Sources */,
 				CE0F75F52A40D9F800E68DDA /* MusicService.swift in Sources */,
+				CE5BE70F2A422EF50041F16E /* SearchTableViewCell.swift in Sources */,
+				CE5BE70B2A4215F50041F16E /* LibraryTableViewCell.swift in Sources */,
+				CE5BE70D2A422D1C0041F16E /* TableViewControllerSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
