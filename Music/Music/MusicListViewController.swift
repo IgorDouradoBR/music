@@ -61,7 +61,6 @@ class MusicListViewController: UIViewController, UITableViewDataSource, UITableV
         cell.nameLabel.text = indiv.title
         cell.artistLabel.text = indiv.artist
         
-        
         //3 return cell
         return cell
     }
