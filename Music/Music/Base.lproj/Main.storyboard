@@ -135,10 +135,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="1229.7709923664122" y="-611.26760563380287"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Playing-->
         <scene sceneID="Cal-GK-rTi">
             <objects>
-                <viewController id="HSt-UV-baY" sceneMemberID="viewController">
+                <viewController id="HSt-UV-baY" customClass="ViewControllerPlaying" customModule="Music" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sGQ-w9-lo3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -219,6 +219,12 @@ Cg
                         <viewLayoutGuide key="safeArea" id="lBj-do-Tmn"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
+                    <connections>
+                        <outlet property="artist" destination="cPz-TI-JVD" id="Uub-EN-0uL"/>
+                        <outlet property="figure" destination="bA8-5z-cBM" id="yqN-nK-RRw"/>
+                        <outlet property="musicPlaying" destination="dwT-6t-Pc7" id="cdp-2z-UyQ"/>
+                        <outlet property="timeStamp" destination="cro-GE-f3k" id="RBN-7m-LiS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGk-ro-vKd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -260,6 +266,7 @@ Cg
                                             <color key="tintColor" systemColor="systemPinkColor"/>
                                         </imageView>
                                     </subviews>
+                                    <color key="backgroundColor" systemColor="labelColor"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="196" id="Ycs-Zx-Lrb">

@@ -23,6 +23,7 @@
 		CE5BE70F2A422EF50041F16E /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE70E2A422EF50041F16E /* SearchTableViewCell.swift */; };
 		CECF762D2A436E13006CA04B /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF762C2A436E13006CA04B /* MusicListViewController.swift */; };
 		CECF762F2A436E1E006CA04B /* MusicTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF762E2A436E1E006CA04B /* MusicTableView.swift */; };
+		CECF76332A44ADD6006CA04B /* ViewControllerPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF76322A44ADD6006CA04B /* ViewControllerPlaying.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		CE5BE70E2A422EF50041F16E /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		CECF762C2A436E13006CA04B /* MusicListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
 		CECF762E2A436E1E006CA04B /* MusicTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableView.swift; sourceTree = "<group>"; };
+		CECF76322A44ADD6006CA04B /* ViewControllerPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPlaying.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,16 +78,17 @@
 		816249882A40D0830096CB16 /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				CE5BE70C2A422D1C0041F16E /* TableViewControllerSearch.swift */,
-				816249892A40D0830096CB16 /* AppDelegate.swift */,
-				8162498B2A40D0830096CB16 /* SceneDelegate.swift */,
+				CECF76322A44ADD6006CA04B /* ViewControllerPlaying.swift */,
 				8162498D2A40D0830096CB16 /* ViewController.swift */,
-				CE5BE70E2A422EF50041F16E /* SearchTableViewCell.swift */,
+				CE5BE70C2A422D1C0041F16E /* TableViewControllerSearch.swift */,
 				CE1DDE2A2A420D2E002AEF9A /* TableViewControllerLibrary.swift */,
-				CE5BE70A2A4215F50041F16E /* LibraryTableViewCell.swift */,
-				CE0F75F42A40D9F800E68DDA /* MusicService.swift */,
 				CECF762C2A436E13006CA04B /* MusicListViewController.swift */,
 				CECF762E2A436E1E006CA04B /* MusicTableView.swift */,
+				CE0F75F42A40D9F800E68DDA /* MusicService.swift */,
+				816249892A40D0830096CB16 /* AppDelegate.swift */,
+				8162498B2A40D0830096CB16 /* SceneDelegate.swift */,
+				CE5BE70A2A4215F50041F16E /* LibraryTableViewCell.swift */,
+				CE5BE70E2A422EF50041F16E /* SearchTableViewCell.swift */,
 				8162498F2A40D0830096CB16 /* Main.storyboard */,
 				816249942A40D0840096CB16 /* LaunchScreen.storyboard */,
 				816249922A40D0840096CB16 /* Assets.xcassets */,
@@ -178,6 +181,7 @@
 				CE0F75F52A40D9F800E68DDA /* MusicService.swift in Sources */,
 				CE5BE70F2A422EF50041F16E /* SearchTableViewCell.swift in Sources */,
 				CE5BE70B2A4215F50041F16E /* LibraryTableViewCell.swift in Sources */,
+				CECF76332A44ADD6006CA04B /* ViewControllerPlaying.swift in Sources */,
 				CE5BE70D2A422D1C0041F16E /* TableViewControllerSearch.swift in Sources */,
 				CECF762D2A436E13006CA04B /* MusicListViewController.swift in Sources */,
 				CECF762F2A436E1E006CA04B /* MusicTableView.swift in Sources */,
